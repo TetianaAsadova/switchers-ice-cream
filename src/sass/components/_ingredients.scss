@@ -136,12 +136,12 @@ ul {
 
     @media screen and (min-width: 480px) {
         margin-left: 102px;
-        margin-right: 90px;
+        margin-right: 102px;
     }
 
     @media screen and (min-width: 768px) {
         margin-left: 178px;
-        margin-right: 218px;
+        margin-right: 178px;
     }
 
     background: linear-gradient(0deg, rgba(156, 190, 143, 0.7), rgba(156, 190, 143, 0.7)),
@@ -157,12 +157,12 @@ ul {
 
     @media screen and (min-width: 480px) {
         margin-left: 102px;
-        margin-right: 90px;
+        margin-right: 102px;
     }
 
     @media screen and (min-width: 768px) {
         margin-left: 178px;
-        margin-right: 218px;
+        margin-right: 178px;
     }
 
     border-radius: 50%;
@@ -175,7 +175,7 @@ ul {
 
     @media screen and (min-width: 480px) {
         margin-left: 102px;
-        margin-right: 62px;
+        margin-right: 102px;
     }
 
     @media screen and (min-width: 768px) {
@@ -286,7 +286,6 @@ ul {
 }
 
 .ingredients__circle:nth-child(1) {
-
     left: 5px;
 }
 
@@ -338,7 +337,6 @@ ul {
     li:not(:last-child) {
         margin-bottom: 11px;
     }
-
 }
 
 .ingredients__group {
