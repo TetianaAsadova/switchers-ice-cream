@@ -13,7 +13,7 @@
         <div class="ingredients__modal">
             <button class="ingredients__modalbtn" type="button" data-modal-close='111'>
                 <svg class="ingredients__close--btn" width="20" height="20">
-                    <use href="./img/ingredients.svg#close"></use>
+                    <use href="./images/modal-ingredients.svg#close"></use>
                 </svg>
             </button>
     
@@ -22,11 +22,13 @@
                 <div class="ingredients__box"></div>
                 <picture>
                     <source media="(min-width: 280px)"
-                        srcset="./images/ingredients/img@1x.webp 1x, ./images/ingredients/img@2x.webp 2x" type="image/webp">
+                        srcset="./images/modal-ingredients/img@1x.webp 1x, ./images/modal-ingredients/img@2x.webp 2x" type="image/webp">
                     <source media="(min-width: 280px)"
-                        srcset="./images/ingredients/img@1x.jpg 1x, ./images/ingredients/img@2x.jpg 2x" type="image/jpg">
-                    <img class="ingredients__picture" src="./images/ingredients/img@1x.jpg" alt="Icecream" width="132"
-                        height="132" loading="lazy" />
+                        srcset="./images/modal-ingredients/img@1x.jpg 1x, ./images/modal-ingredients/img@2x.jpg 2x" type="image/jpg">
+                    <img class="ingredients__picture" 
+                        src="./images/modal-ingredients/img@1x.jpg" 
+                        alt="Icecream" 
+                        loading="lazy">
                 </picture>
     
             </div>
@@ -90,16 +92,16 @@
             <form class="ingredients__form">
                 <div class="ingredients__group">
                     <label class="ingredients__field">
-                        <input class="ingredients__input" type="text" name="" required minlength="2">
+                        <input class="ingredients__input" type="text" name="ingredients__empty" required minlength="2">
                         <span class="ingredients__name">Name</span>
                     </label>
                     <label class="ingredients__field">
-                        <input class="ingredients__input" type="text" name="" required minlength="12" maxlength="12">
+                        <input class="ingredients__input" type="text" name="ingredients__empty" required minlength="12" maxlength="12">
                         <span class="ingredients__name">Phone</span>
                     </label>
     
                     <label class="ingredients__field">
-                        <textarea class="ingredients__comment" name="" rows="10" placeholder="Comment"></textarea>
+                        <textarea class="ingredients__comment" name="ingredients__empty" rows="10" placeholder="Comment"></textarea>
                     </label>
                 </div>
     
@@ -108,5 +110,5 @@
         </div>
     </div>
     
-    <script src="./js/ingredients-modal.js"></script>
+    <script src="./js/modal-ingredients.js"></script>
 </section>
